@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpTriggerFunction", "HttpTriggerFunction\HttpTriggerFunction.csproj", "{EEEEDBC1-C430-4161-83B4-25EF06E67030}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blobtrigger", "Blobtrigger\Blobtrigger.csproj", "{B8D28C07-65FF-4D43-8AAA-D647C3DD9583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blobtrigger", "Blobtrigger\Blobtrigger.csproj", "{B8D28C07-65FF-4D43-8AAA-D647C3DD9583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusTrigger", "ServiceBusTrigger\ServiceBusTrigger.csproj", "{C9F1401E-933E-4B06-9C98-25A66D5874C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B8D28C07-65FF-4D43-8AAA-D647C3DD9583}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8D28C07-65FF-4D43-8AAA-D647C3DD9583}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8D28C07-65FF-4D43-8AAA-D647C3DD9583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F1401E-933E-4B06-9C98-25A66D5874C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F1401E-933E-4B06-9C98-25A66D5874C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F1401E-933E-4B06-9C98-25A66D5874C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F1401E-933E-4B06-9C98-25A66D5874C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
